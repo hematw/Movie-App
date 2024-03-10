@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/atom.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Atom Movies</title>
+  </head>
+  <body>
+    
+    <header>
+      <div class="logo">
+        <img src="images/atom.png" alt="">
+        <h1>Atom Movies</h1>
+      </div>
+      <form id="search-form" >
+        <input type="text" id="search" class="search" placeholder="Search Movies">
+        <button type="submit"><i class="bi bi-search"></i></button>
+      </form>
+    </header>
+
+    <main>
+      <div  id="movies-container"></div>
+
+      <div class="feedback">
+        <div class="form-container">
+          <h3>Have any feedback?</h3>
+          <h2>Send it to me</h2>
+          <form id="message-form">
+            <input type="text" id="msg-sender" placeholder="Your name:">
+            <textarea id="msg-input" placeholder="Your message here:"></textarea>
+            <button type="submit" id="msg-btn">
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Hemat Waziri</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
